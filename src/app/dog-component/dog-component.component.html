@@ -1,1 +1,3 @@
-<p>dog-component works!</p>
+<div>
+  <img *ngIf="doggo$ | async as doggo" [src]="doggo.message" />
+</div>
